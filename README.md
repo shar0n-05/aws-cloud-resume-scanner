@@ -36,10 +36,11 @@ Results are stored in DynamoDB.
 CloudWatch captures logs and execution metrics.
 Project Structure
 # File Structure
-'''cloud-resume-scanner/
+```
+cloud-resume-scanner/
 │
 ├── frontend/
-│   s└── index.html
+│   └── index.html
 │
 ├── lambda/
 │   ├── Resume_scanner.py
@@ -56,4 +57,5 @@ Project Structure
 │   ├── cloudwatch.png
 │
 ├── requirements.txt
-├── README.md'''
+├── README.md
+```
