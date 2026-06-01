@@ -9,6 +9,7 @@ Serverless Resume Scanner using AWS Lambda, API Gateway, S3 and DynamoDB
       calculate a match score, and store the results in Amazon DynamoDB.
 
 # Features
+```
   Resume upload through web interface
   Secure file upload using S3 Pre-Signed URLs
   Automated resume text extraction
@@ -17,16 +18,18 @@ Serverless Resume Scanner using AWS Lambda, API Gateway, S3 and DynamoDB
   Result storage in DynamoDB
   Logging and monitoring using CloudWatch
   Fully serverless architecture
-  
+  ```
 # AWS Services Used
+ ```
   Amazon S3
   AWS Lambda
   Amazon API Gateway
   Amazon DynamoDB
   AWS IAM
   Amazon CloudWatch
-  
+  ```
 # Architecture Flow
+```
 User uploads a resume and selects a target job role.
 Frontend requests a pre-signed upload URL.
 API Gateway invokes generateurl.py.
@@ -37,6 +40,7 @@ Lambda extracts text and identifies relevant skills.
 Skill score is calculated based on the selected role.
 Results are stored in DynamoDB.
 CloudWatch captures logs and execution metrics.
+```
 Project Structure
 # File Structure
 ```
