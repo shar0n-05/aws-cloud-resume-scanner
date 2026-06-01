@@ -3,7 +3,10 @@ Serverless Resume Scanner using AWS Lambda, API Gateway, S3 and DynamoDB
 # Cloud-Based Resume Scanner
 
 # Overview
-      Cloud-Based Resume Scanner is a serverless AWS application that automates resume screening by comparing candidate resumes against a target job role and calculating a skill match score.The application allows users to upload resumes through a web interface. Resumes are stored in Amazon S3 using secure pre-signed URLs. AWS Lambda functions process the uploaded resumes, extract skills, calculate a match score, and store the results in Amazon DynamoDB.
+      Cloud-Based Resume Scanner is a serverless AWS application that automates resume screening by comparing candidate resumes against
+      a target job role and calculating a skill match score.The application allows users to upload resumes through a web interface. 
+      Resumes are stored in Amazon S3 using secure pre-signed URLs.AWS Lambda functions process the uploaded resumes, extract skills,
+      calculate a match score, and store the results in Amazon DynamoDB.
 
 # Features
   Resume upload through web interface
