@@ -35,8 +35,8 @@ Skill score is calculated based on the selected role.
 Results are stored in DynamoDB.
 CloudWatch captures logs and execution metrics.
 Project Structure
-# FILE STRUCTURE
-cloud-resume-scanner/
+# File Structure
+'''cloud-resume-scanner/
 │
 ├── frontend/
 │   s└── index.html
@@ -56,4 +56,4 @@ cloud-resume-scanner/
 │   ├── cloudwatch.png
 │
 ├── requirements.txt
-├── README.md
+├── README.md'''
